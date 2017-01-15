@@ -5,7 +5,7 @@
 From the root folder of plugin type":
 
 ```sh
-npm install -g
+% npm install -g
 ```
 
 # Adding plugin to your project
@@ -21,7 +21,7 @@ plugins:
 
 Type:
 ```sh
-syncano-cli
+% syncano-cli
 ```
 
 You should see plugin in plugins section:
@@ -47,4 +47,11 @@ Usage: cli [options] [command]
   Options:
 
     -h, --help  output usage information
+```
+
+To use it type:
+
+```sh
+% syncano-cli hello
+hello world!
 ```
