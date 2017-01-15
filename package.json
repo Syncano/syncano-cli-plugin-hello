@@ -1,0 +1,24 @@
+{
+  "name": "syncano-cli-plugin-hello",
+  "version": "0.0.1",
+  "description": "Sample Hello World Syncano CLI plugin",
+  "main": "lib/index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "build": "babel src -d lib/ --copy-files --ignore *.test.js"
+  },
+  "author": "Maciej Kucharz <maciej.kucharz@syncano.com> (http://syncano.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-object-rest-spread": "6.20.2",
+    "babel-plugin-transform-runtime": "6.15.0",
+    "babel-preset-latest": "6.16.0",
+    "babel-preset-stage-2": "6.18.0",
+    "babel-register": "6.18.0"
+  },
+  "dependencies": {
+    "babel-preset-node7": "^1.4.0"
+  }
+}
